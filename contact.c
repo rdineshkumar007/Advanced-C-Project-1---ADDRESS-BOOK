@@ -13,7 +13,7 @@ Title : Project 1 - Address Book
 /* Function to trim whitespace from both ends of a string */
 static char* strtrim(char* str)
 {
-    char *end;
+    char *end; // hello end pointer
     // Trim leading space
     while(isspace((unsigned char)*str))
         str++;
